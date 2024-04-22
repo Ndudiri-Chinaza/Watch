@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  height: 100vh;
+  width: 100%;
+  background: rgb(154, 154, 201);
+}
+
+.watch-box{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 400px;
+  background: #fff;
+  border-radius: 5px;
+  overflow: hidden;  
+}
+
+.watch-text{
+  padding: 20px 20px 40px 20px;
+  font-size: 18px;
+}
+
+.novus{
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.series{
+  color: rgb(134, 125, 125);
+  font-size: 20px;
+}
+
+.watch-wrap{
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  position: absolute;
+  top: ;
+
+}
+
+.watch-wrap::before, .watch-wrap::after{
+  content: '';
+  width: 10px;
+  height: 10px;
+  background: rgb(216, 216, 11);
+}
